@@ -60,7 +60,7 @@ export class Home extends React.Component{
                                 {
                                         this.state.list.map((garbage, index) => {
                                         return <li key={index} className="list-inline-item d-flex justify-content-between">{garbage} 
-                                            <span onClick={(index) => {this.deleteTask(index);}} position={index}>
+                                            <span id={index} onClick={(index) => {this.deleteTask(index.currentTarget.id);}}>
                                                 <i className="fas fa-times"></i>
                                             </span></li>;
                                         }
