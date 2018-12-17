@@ -46,7 +46,7 @@ export class Home extends React.Component{
         return (
             <div className="text-center mt-2">
                 <div className="container border border-dark">
-                    <h1>todos</h1>
+                    <h1>To-Do</h1>
                     <div className="row">
                         <div className="col-8 mx-auto">
                             <input onChange={(e) => this.inputTask(e.target.value)} 
@@ -59,7 +59,7 @@ export class Home extends React.Component{
                            
                                 {
                                         this.state.list.map((garbage, index) => {
-                                        return <li key={index} className="list-inline-item d-flex justify-content-between">{garbage} 
+                                        return <li key={index} className="border border-dark rounded mx-auto list-inline-item d-flex justify-content-between col-11 mb-1 mt-1">{garbage} 
                                             <span id={index} onClick={(index) => {this.deleteTask(index.currentTarget.id);}}>
                                                 <i className="fas fa-times"></i>
                                             </span></li>;

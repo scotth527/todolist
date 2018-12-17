@@ -1,35 +1,36 @@
-# Hello World with React and Cloud 9
+# To-Do App with React and Cloud 9
 
-Requierents: Make sure you have node version 8
+A to-do app that uses react, bootstrap, HTML, CSS, allows the user to be able to add items to the list, delete tasks, and has a counter to keep track of the pending tasks. 
 
-##### Download the boilerplate using the BreatheCode CLI
-```
-$ npm i breathecode-cli -g
+![Gif](https://hippolms-storage.s3.amazonaws.com/wiz/gifs/311529/5622.gif?AWSAccessKeyId=AKIAJXRM4YAH2A46K76A&Expires=1545084161&Signature=OasXLInrvlp2C54F38B0fm5vQVc%3D&response-content-disposition=attachment%3B%20filename%3DNew%2520GIF.gif)
+
+Requierements: Make sure you have node version 8
+
+## Live App: [http://todolist-scotth527.c9users.io:8080/](http://todolist-scotth527.c9users.io:8080/)
+
+Built from the 4GeeksAcademy react-hello boilerplate here: [https://github.com/4GeeksAcademy/react-hello] (https://github.com/4GeeksAcademy/react-hello)
+
+### Run the Project from Cloud 9 IDE
+
+##### Make sure you have node version 8
+```sh
+$ nvm install 8
+$ nvm use 8
+$ node -v
 ```
 
-##### Download the boilerplate using the BreatheCode CLI
+#### Then run the app!
+```sh
+$ npm run c9
 ```
-$ breathecode start:react-project -r
-```
-##### and install the npm package:
-```
+
+##### Install the npm package when changes are made to package.json:
+```sh
 $ npm install
 ```
 
-## Start coding! 
+##### Re-build bundle for deployment outside of GitHub Pages
 
-Start the webpack server with live reload:
-- `$ npm run c9` for Cloud 9 Users.
-- `$ npm run dev-server` for windows, mac or linux.
-
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website! 
-
-This boilerplate is 100% compatible with the free github pages hosting.
-To publish your website you need to push your code to your github repository and run the following command after:
 ```sh
-$ npm run deploy
+$ npm run build
 ```
-Note: You will need to [configure github pages for the branch gh-pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages)
