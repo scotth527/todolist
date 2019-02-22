@@ -49,8 +49,8 @@ export class Home extends React.Component{
                             <ul className="list-inline ">
                            
                                 {
-                                        this.state.list.map((garbage, index) => {
-                                        return <li key={index} className="border border-dark rounded mx-auto list-inline-item d-flex justify-content-between col-11 mb-1 mt-1">{garbage} 
+                                        this.state.list.map((item, index) => {
+                                        return <li key={index} className="border border-dark rounded mx-auto list-inline-item d-flex justify-content-between col-11 mb-1 mt-1">{item} 
                                             <span id={index} onClick={(index) => {this.deleteTask(index.currentTarget.id);}}>
                                                 <i className="fas fa-times"></i>
                                             </span></li>;
