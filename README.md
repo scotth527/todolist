@@ -2,9 +2,9 @@
 
 A to-do app that uses react, bootstrap, HTML, CSS, allows the user to be able to add items to the list, delete tasks, and has a counter to keep track of the pending tasks. 
 
-![Gif](https://hippolms-storage.s3.amazonaws.com/wiz/gifs/311529/5622.gif?AWSAccessKeyId=AKIAJXRM4YAH2A46K76A&Expires=1545084161&Signature=OasXLInrvlp2C54F38B0fm5vQVc%3D&response-content-disposition=attachment%3B%20filename%3DNew%2520GIF.gif)
+![Gif](./example.gif)
 
-## Live App: [http://todolist-scotth527.c9users.io:8080/](http://todolist-scotth527.c9users.io:8080/)
+## Live App: [https://scotth527.github.io/todolist/](https://scotth527.github.io/todolist/)
 
 Built from the 4GeeksAcademy react-hello boilerplate here: [https://github.com/4GeeksAcademy/react-hello] (https://github.com/4GeeksAcademy/react-hello)
 
