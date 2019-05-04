@@ -6,7 +6,7 @@ A to-do app that uses react, bootstrap, HTML, CSS, allows the user to be able to
 
 ## Live App: [https://scotth527.github.io/todolist/](https://scotth527.github.io/todolist/)
 
-Built from the 4GeeksAcademy react-hello boilerplate here: [https://github.com/4GeeksAcademy/react-hello] (https://github.com/4GeeksAcademy/react-hello)
+Built from the 4GeeksAcademy react-hello boilerplate here: [https://github.com/4GeeksAcademy/react-hello](https://github.com/4GeeksAcademy/react-hello)
 
 ### Run the Project from Cloud 9 IDE
 
